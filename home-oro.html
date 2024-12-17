@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RobsanPortifolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Robsan <span>Demisew</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Mana</a>
+        <a href="#education">Barumsa</a>
+        <a href="#services">Tajaajila</a>
+        <a href="#projects">Pirojektoota</a>
+        <a href="#contact">Quunnamuu</a>
+        
+        <a href="logout.php">Ba'i</a>  
+     
+      </nav>
+
+  <div class="switch-container">
+    <select id="languageSelect" class="language-select">
+      <option>language</option>
+        <option value="home.html">English</option>
+        <option value="home-pt.html">Amharic</option>
+
+
+    </select>
+    <p id="languageLabel">Afaan Oromo</p>
+</div>
+
+<script>
+    const languageSelect = document.getElementById('languageSelect');
+    const languageLabel = document.getElementById('languageLabel');
+
+    languageSelect.addEventListener('change', () => {
+        const selectedOption = languageSelect.options[languageSelect.selectedIndex];
+        languageLabel.textContent = `Current Language: ${selectedOption.text}`;
+        window.location.href = selectedOption.value;
+    });
+</script>
+</head>
+    
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Nagaa, Ani <span>Robsan Dhaa</span></h1>
+        <h3 class="text-animation">Hojiin Koo, <span></span></h3>
+        <p>
+          Ani website Developer muuxannoo Ji'a 6 ol qabudha.
+ Sagantaa fuulduraa Html,Css fi JavaScript irratti. Web Developmenti kana barachuuf of kenneera
+ teknooloojiiwwan gurguddoo gabaa irra jiran, kanneen akka Php, Node.js, React, Python
+ fi Jaavaa bal’inaan barachuttan Jira. Teeknooloojiiwwan kanneen keessatti bu’uura koo cimsuuf, ani
+ C++ fi C Sharp barachaan jira, kana malees gadi fageenya
+ beekumsa JaavaScript keessattis. Yeroo hunda waan haaraa fi...
+ teknooloojiiwwan haaraa uumaman, beekumsa koo babal’isuuf itti fufiinsaan barbaaduu fi
+ dandeettiiwwan.
+        </p>
+
+        <div class="social-icons">
+         </a>
+          <a href="https://github.com/robina2721" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/robina.2721/" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="mailto:robsanyeabsra@gmail.com" target="_blank"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="src/Robsan-Demisew.pdf" class="btn" download>Cv Buusi</a>
+          <a href="src/robsancertificate.jpg" class="btn" download>Waraqaa ragaa</a>
+          <a href="#contact" class="btn">nu qunnamaa</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="src/robina2.png" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Barumsa</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+            <h3>Grade 12</h3>
+            <p>
+              Bu’uuraalee sagantaa tokko tokko qorachuu            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>University</h3>
+            <p>
+              Web Developer qorannoo itti fufiinsa qabu waliin.            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Courses and Bootcamp</h3>
+            <p>
+              Dhaabbilee: C++, .
+ kanneen biroo keessaa, Back-end with dabalatee Our University bootcamp irratti hirmaadheera
+ Php
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">20??</div>
+          <div class="timeline-content">
+            <h3>Goals</h3>
+            <p>Misoomsaa Guutuu Guutuu Olaanaa
+              dandeettii Jaavaa,Paayitoon,Php,C++,C Sharp,React fi Node.js kan qabu
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Tajaajilota Keninuu</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Ui design</h4>
+            <p>
+              Muuxannoo fayyadamaa gammachiisaa fi hojiirra oolu uumuu, sana mirkaneessuu
+ fayyadamtoonni oomisha waliin haala hubannoo fi bu’a qabeessa ta’een walitti dhufeenya uumuu danda’u.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Frontend</h4>
+            <p>
+              Misooma interfeesii fayyadamaa daayinamikii fi deebii kennu Html,Css,Js fi Php fayyadamuun.              
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Backend</h4>
+            <p>
+              APIwwan ciccimoo fi guddachuu danda’an kanneen raawwii olaanaa qaban misoomsuu fi
+              walitti makamuu dhangala'aa Jaavaa wajjin uumamee fi
+              Php.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Testing</h4>
+            <p>
+              Qulqullina sooftiweerii mirkaneessuu, waan hunda mirkaneessuu
+              akkaataa barbaachisummaa isaatti sirritti ni hojjeta, akkasumas sana mirkaneessuu
+              dogoggorri fayyadamaa bira hin gahu
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-box">
+        <h2 class="heading">Pirojektoota</h2>
+
+        <div class="wrapper">
+          
+          <div class="projects-item">
+            <a href="https://robina2721.github.io/codex-bookstoreWeb/" target="_blank">
+              <img src="src/robina2.png" alt="" />
+            </a>
+            <h2>
+              <a
+                target="_blank"
+                href="https://robina2721.github.io/codex-bookstoreWeb/"
+                >Bookstore</a
+              >
+            </h2>
+            <div class="rating">
+              <i class="bx bxs-star star" data-value="1"></i>
+              <i class="bx bxs-star star" data-value="2"></i>
+              <i class="bx bxs-star star" data-value="3"></i>
+              <i class="bx bxs-star star" data-value="4"></i>
+              <i class="bx bxs-star star" data-value="5"></i>
+            </div>
+            <p>
+              Baga gara [Codex Book Store]Dhuuftan, – Karra Seenaa fi Beekumsa Dhuma Hin Qabneetti dhuftan
+ Filannoo kitaabota keenya kan qophaa’een addunyaa yaada, barumsaa fi argannoo qoradhu. Nama asoosama jaallattus ta'e, .
+ nama seenaa jaallatu, ykn of gargaaruu keessatti kaka’umsa barbaadu, nama hundaaf waan qabna.
+            </p>
+            <p>
+              Project
+              <a
+                href="https://github.com/robina2721/codex-bookstoreWeb.git"
+                target="_blank"
+                >Code</a
+              >
+            </p>
+          </div>
+          <div class="projects-item">
+          
+            <h2>
+              Pirojektoota biroo Hojachaan Jira, Dhihottii ni Lakifamuu!
+            </h2>
+   
+              Project
+          
+          </div>
+
+          <div class="projects-item">
+           
+            <h2>
+              
+              Pirojektoota biroo Hojachaan Jira, Dhihottii ni Lakifamuu!
+            </h2>
+         
+              Project
+              
+              
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Nu <span>Qunnamaa</span></h2>
+
+      <form action="contact_connect.php" method="post">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Maqaa Gutuu" required />
+            <input type="email" name="email" placeholder="Emaili" />
+          </div>
+          <div class="input-box">
+            <input
+              type="integer"
+              name="phone_number"
+              placeholder="Lakk-Bilbila"
+              required
+            />
+            <input type="text" name="subject" placeholder="Mata-Dure" required />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name="comment"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Yaada Keessan"
+          ></textarea>
+          <input type="submit" value="Yaada Ergii" class="btn" required />
+
+          
+      
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/robina2721/" target="_blank"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+        <a href="https://github.com/robina2721" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/robina2721/" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="mailto:robsanyeabsra@gmail.com" target="_blank"
+          ><i class="bx bxl-gmail"></i
+        ></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#contact">FAQ</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#">About Me</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="signup.php">Logout</a> 
+        </li>
+       <li>
+        <a href="customize.php">Manage Account</a>
+       </li>
+      </ul><br>
+      <center><p>Phone_number- +251996881921, Email-robsanyeabsra@gmail.com</p></center>
+      <p class="copyright">© Robson Demisew | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
