@@ -1,6 +1,6 @@
 <h1>Robsan's-Portfolio-Website</h1>
 https://robsandemisew.is-best.net check by this link
-<h2>Developed by Robsan Demisew Information Systems Student</h2>
+<h2>Developed by Robsan Demisew (Information Systems) Student</h2>
 <h3>Contact me if you want any kind of websites +251996881921</h3>
 <h3>•Technologies Used</h3>
 <p><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain.svg" title="CSS3" alt="CSS" width="40" height ="40"/>&nbsp;
